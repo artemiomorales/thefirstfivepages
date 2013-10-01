@@ -13,7 +13,7 @@
 
 Route::get('/', function()
 {
-	return View::make('simple');
+	return View::make('hello');
 });
 
 Route::get('/{squirrel}', function($squirrel)

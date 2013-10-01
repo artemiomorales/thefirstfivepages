@@ -9,7 +9,7 @@
 </head>
 
 <body>
-	<p>Oh yeah! VIEWS!</p>
+	<p>Welcome Stefan -- we've got this working.</p>
 </body>
 
 </html>
