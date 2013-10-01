@@ -13,7 +13,38 @@
 
 Route::get('/', function()
 {
-	return View::make('hello');
+	return View::make('simple');
+});
+
+Route::get('/{squirrel}', function($squirrel)
+{
+	$data['squirrel'] = $squirrel;
+	return View::make('simple', $data);
+});
+
+Route::get('my/page', function()
+{
+	return 'Hello world!';
+});
+
+Route::get('first/page', function()
+{
+	return 'First!';
+});
+
+Route::get('second/page', function()
+{
+	return 'Second!';
+});
+
+Route::get('third/page', function()
+{
+	return 'Potato!';
+});
+
+Route::get('/books/{genre?}', function($genre = 'Crime')
+{
+	return "Books in the {$genre} category.";
 });
 
 // app/routes.php
