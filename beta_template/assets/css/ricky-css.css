@@ -1,0 +1,16 @@
+.container {
+	text-align: center;
+}
+
+#loading-icon {
+	margin-top: 10%;
+	display: none;
+}
+
+#reader {
+	margin: 0 auto;
+}
+
+#reader .content {
+	text-align: left;
+}

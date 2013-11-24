@@ -1,0 +1,27 @@
+h1 {
+	color: green;
+}
+
+p {
+	color: blue;
+}
+
+.disclaimer {
+	color: red;
+}
+
+#user {
+	color: #094532;
+}
+
+.story {
+	background: blue;
+}
+
+#reader .span2 {
+	background: green;
+}
+
+.span2:hover {
+	background: red;
+}

@@ -1,0 +1,8 @@
+#reader {
+	width: 75%;
+	margin: 0 auto;
+}
+
+#reader h1, #reader h2 {
+	text-align: center;
+}

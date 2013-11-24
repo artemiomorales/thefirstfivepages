@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<text>
+		<content>
+			Here is some text.
+		</content>
+
+		<content id="style">
+			<style>Hopefully </style><style id="italic">you </style><style>can read it. </style>
+		</content>
+	</text>
+</root>
