@@ -13,9 +13,10 @@ class CreateStories extends Migration {
 	{
 		Schema::create('stories', function($table)
 		{
+			$table->increments('id');
 			$table->string('title');
 			$table->string('author');
-			$table->string('id')->unique();
+			$table->string('slug')->unique();
 		});
 	}
 

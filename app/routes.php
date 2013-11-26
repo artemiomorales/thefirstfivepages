@@ -33,9 +33,9 @@ Route::get('/show_story', function(){
 Route::get('/create_story', function()
 {
 	$story = new Story;
-	$story->title = 'the-tale-heart';
-	$story->author = 'Edgar Allan Poe';
-	$story->id = '0';
+	$story->title = 'Use';
+	$story->author = 'Alice Walker';
+	$story->slug = 'use';
 	$story->save();
 });
 

@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="../../docs-assets/ico/favicon.png">
 
-    <title>Starter Template for Bootstrap</title>
+    <title>the first five pages (prototype)</title>
 
     <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.css" rel="stylesheet">
@@ -29,25 +29,28 @@
   </head>
 
   <body>
-    <?php include ('header.php'); ?>
-	 <div class="container">
-      <img id="loading-icon" src="assets/img/ajax-loader.gif" />
-      <div id="reader">
-        <h1 class="title">Bootstrap starter template</h1>
-        <h2 class="author">The Author</h2>
-        <p class="content">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
+    <div id="page">
+     <?php include ('header.php'); ?>
+  	 <div id="main-container" class="container">
+        <img id="loading-icon" src="assets/img/ajax-loader.gif" />
+        <div id="reader">
+          <h1 class="title">Early Stage Prototype</h1>
+          <h2 class="author">Version .1</h2>
+          <p class="content">Click "next story" below to browse.<br/> <br/> -This view is optimized for mobile devices. <br/> -These are placeholder stories; the real version of the app will contain work by self-published authors.</p>
+        </div>
+
       </div>
+  	<?php include ('footer.php'); ?>
+  	
+  	   
 
+      <!-- Bootstrap core JavaScript
+      ================================================== -->
+      <!-- Placed at the end of the document so the pages load faster -->
+      <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+      <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+      <script src="assets/js/bootstrap.min.js"></script>
+      <script src="assets/js/stumble.js"></script>
     </div>
-	<?php include ('footer.php'); ?>
-	
-	   
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/stumble.js"></script>
   </body>
 </html>

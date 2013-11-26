@@ -35,7 +35,6 @@ function placeText(title, author, id) {
 
 	for(i=0; i<resultDocument.childNodes.length; i++) {
 		textNode[i] = resultDocument.childNodes[i];
-		console.log(i);
 	}
 
 	for(j=0; j<textNode.length; j++) {
@@ -44,7 +43,7 @@ function placeText(title, author, id) {
 
 	$(".title").empty().html(title);
 	$(".author").empty().html("by " + author);
-	$("#loading-icon").css("display", "none");
 	$("#reader").fadeIn(200);
+	
 
 }
