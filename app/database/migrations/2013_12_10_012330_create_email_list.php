@@ -2,7 +2,7 @@
 
 use Illuminate\Database\Migrations\Migration;
 
-class CreateStories extends Migration {
+class CreateEmailList extends Migration {
 
 	/**
 	 * Run the migrations.
@@ -11,12 +11,12 @@ class CreateStories extends Migration {
 	 */
 	public function up()
 	{
-		Schema::create('stories', function($table)
-		{
+		Schema::create('users', function($table)
+    	{
 			$table->increments('id');
-			$table->string('title');
-			$table->string('author');
-			$table->string('slug')->unique();
+	        $table->string('email', 320);
+	        $table->string('_token');
+	        $table->timestamps();
 		});
 	}
 
@@ -27,7 +27,8 @@ class CreateStories extends Migration {
 	 */
 	public function down()
 	{
-		Schema::drop('stories');
+		Schema::drop('users');
+    	
 	}
 
 }

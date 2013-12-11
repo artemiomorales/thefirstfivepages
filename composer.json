@@ -6,6 +6,7 @@
 	"require": {
 		"laravel/framework": "4.0.*",
 		"firephp/firephp-core": "dev-master"
+		
 	},
 	"author": [
 		{
